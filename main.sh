@@ -3,10 +3,13 @@
 depend {
     "website": {
         "@.#s1": {
+            "readme": "$__DIRNAME__/README.md",
             "variables": {
                 "PACKAGE_GITHUB_URI": "github.com/gi0-cadorn-org/component",
                 "PACKAGE_WEBSITE_SOURCE_URI": "github.com/gi0-cadorn-org/component/tree/master/main.sh",
-                "PACKAGE_WEBSITE_URI": "gi0-cadorn-org.github.io/component/"
+                "PACKAGE_WEBSITE_URI": "gi0-cadorn-org.github.io/component/",
+                "PACKAGE_YEAR_CREATED": "2017",
+                "PACKAGE_LICENSE_ALIAS": "MPL"
             }
         }
     }
