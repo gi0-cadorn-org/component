@@ -104,7 +104,7 @@ function EXPORTS_run {
         "routes": {
             "/*": function /* CodeBlock */ (options) {
 
-                const LIB = require('bash.origin.workspace').forPackage(options.config.ourPath + '/../..').LIB;
+                const LIB = require('bash.origin.lib').forPackage(options.config.ourPath).js;
 
                 const Promise = LIB.BLUEBIRD;
                 const PATH = require("path");

@@ -6,7 +6,6 @@ depend {
             "variables": {
                 "PACKAGE_GITHUB_URI": "github.com/gi0-cadorn-org/component",
                 "PACKAGE_WEBSITE_SOURCE_URI": "github.com/gi0-cadorn-org/component/tree/master/main.sh",
-                "PACKAGE_CIRCLECI_NAMESPACE": "gi0-cadorn-org/component",
                 "PACKAGE_WEBSITE_URI": "gi0-cadorn-org.github.io/component/"
             }
         }
